@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar.css */
+
+.sidebar {
+    display: none; /* Hide sidebar by default */
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially positioned at left edge */
+    transition: left 0.3s ease; /* Transition effect */
+  }
+  
+  .sidebar.open {
+    left: 0; /* Slide in when open */
+  }
+  
+  .burger-menu {
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    position: fixed; /* Keep the burger menu fixed */
+    top: 20px; /* Adjust the top position as needed */
+    left: 8px; /* Adjust the left position as needed */
+    z-index: 999; /* Ensure the burger menu is above other elements */
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  
+  #sidebar-ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 65px; /* Add margin to position below burger menu */
+  }
+  
+  .sidebar-link {
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 940px) {
+    /* Show sidebar only on tablets and mobile screens */
+    .sidebar {
+      display: block;
+    }
+  }
+  
