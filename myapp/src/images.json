@@ -1,0 +1,8 @@
+[
+    { "id": 1, "filename": "zebra.jpg", "alt": "Zebra herd" },
+    { "id": 2, "filename": "elephants.jpg", "alt": "Elephant herd" },
+    { "id": 3, "filename": "turtles.jpg", "alt": "Turtle" },
+    { "id": 4, "filename": "tiger.jpg", "alt": "Tiger" },
+    { "id": 5, "filename": "crocodile.jpg", "alt": "Crocodile" }
+  ]
+  
