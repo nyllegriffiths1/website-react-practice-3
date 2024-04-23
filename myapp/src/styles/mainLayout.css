@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.layout-image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.layout-image img {
+    margin-top: 90px;
+    height: 100vh;
+}

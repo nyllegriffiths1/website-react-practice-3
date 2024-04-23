@@ -1,14 +1,12 @@
 import './App.css';
-import Navbar from './components/navbar';
-import Sidebar from './components/sidebar';
+import MainLayout from './pages/mainLayout';
 import ImageSlider from './components/imageSlider';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Sidebar />
-      <ImageSlider />
+      <MainLayout />
+      {/* <ImageSlider /> */}
     </div>
   );
 }
