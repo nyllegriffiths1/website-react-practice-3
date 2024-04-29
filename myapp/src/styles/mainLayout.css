@@ -21,3 +21,11 @@
     margin-top: 90px;
     height: 100vh;
 }
+
+.line-break {
+    width: 100%; 
+    height: 5px;
+    background-color: black;
+}
+
+

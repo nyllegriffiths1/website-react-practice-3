@@ -13,8 +13,8 @@
     align-items: center;
     padding: 0.325rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     z-index: 999;
     width: 100%;
   }

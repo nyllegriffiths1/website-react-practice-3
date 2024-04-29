@@ -10,7 +10,7 @@
     display: none; /* Hide sidebar by default */
     width: 250px;
     height: 100vh;
-    background-color: #333;
+    background-color: #000000;
     position: fixed;
     top: 0;
     left: -250px; /* Initially positioned at left edge */
@@ -49,6 +49,10 @@
     color: #fff;
     cursor: pointer;
   }
+
+  /* .sidebar-link:hover {
+    color: orange;
+  } */
   
   @media (max-width: 940px) {
     /* Show sidebar only on tablets and mobile screens */

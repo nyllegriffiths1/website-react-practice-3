@@ -9,13 +9,6 @@ const Navbar = () => {
                 <img src={MyLogo} alt="logo" />
             </div>
 
-            <div className='sign-up-container'>
-                <ul id='sign-up-ul'>
-                    <li className='sign-up-links'>Sign Up</li>
-                    <li className='sign-up-links'>Sign In</li>
-                </ul>
-            </div>
-
             <div className='nav-links-container'>
                 <ul id='navbar-ul'>
                     <li className='nav-link'>Home</li>

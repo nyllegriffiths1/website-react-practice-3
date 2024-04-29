@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    margin: 1.2rem;
+}
+
+.quote-text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 0.825rem;
+    border-radius: 10px;
+}
+
+.quote-text-content p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#fetch-button {
+    font-weight: bold;
+    padding: 0.825rem;
+    border: none;
+    border-radius: 0.625rem;
+    margin: 1.2rem 0;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#fetch-button:hover {
+    transform: scale(1.1);
+    background: green;
+    color: white;
+}
+
+#fetch-button:active {
+    transform: scale(0.9);
+}

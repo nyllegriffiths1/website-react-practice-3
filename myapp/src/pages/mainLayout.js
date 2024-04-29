@@ -4,6 +4,8 @@ import MyPhoto from '../images/zebra.jpg';
 import Navbar from '../components/navbar';
 import Sidebar from '../components/sidebar';
 import CardLayout from '../components/cardLayout';
+import InputTest from '../components/InputValue';
+import DogBreedInfo from '../components/dogBreedInfo';
 
 const MainLayout = () => {
     // logic
@@ -12,10 +14,11 @@ const MainLayout = () => {
             <div className='layout-container'>
                 <Navbar />
                 <Sidebar />
-                {/* <div className='layout-image'>
-                    <img src={MyPhoto} />
-                </div> */}
-                <CardLayout />
+                <InputTest />
+                <div className='line-break'>
+                    
+                </div>
+                <DogBreedInfo />
             </div>
         </>
     )
